@@ -13,6 +13,8 @@ def index():
 @app.route("/greet", methods=["POST", "GET"])
 def greet():
 	name = str(request.form["input_name"])
+	if name == "":
+		name = "User"
 	flash(f"Hi {name.title()}, great to see you!")
 	return render_template("index.html")
 
