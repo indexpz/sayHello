@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Shanti&display=swap');
+
+body {
+    background-color: slategray;
+    text-align: center;
+}
+
+p {
+    color: wheat;
+    font-family: Shanti, serif;
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+img {
+    margin: 60px 0 30px 0;
+    width: 250px;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: Shanti, serif;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.greet{
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    font-family: Shanti, serif;
+    background-color: #3399cc;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.greet:hover{
+    background-color: mediumturquoise;
+    cursor: pointer;
+}
